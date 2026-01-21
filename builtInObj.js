@@ -10,6 +10,7 @@ const month = birthDate.getMonth() + 1;
 const year = birthDate.getFullYear();
 console.log(`My Birthdate is: ${date}-${month}-${year}`);
 
+
 const myBirhtDate = birthDate.getDate();
 const monthNames = [
   "Jan",

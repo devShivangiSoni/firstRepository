@@ -17,7 +17,7 @@ class Circle {
     if (diameter >= 0) {
       this.radius = diameter / 2;
     } else {
-      console.log("Invalid input");
+      console.log("Invalid input!");
     }
   }
 }
