@@ -1,3 +1,7 @@
+import { greet } from "./test.js";
+
+greet("Shivangi", 24);
+
 function Vehical(name, color, wheels) {
   this.name = name;
   this.color = color;
@@ -59,7 +63,7 @@ class Student {
 
   getStudentDetails() {
     console.log(
-      `${this.name} of rollNo ${this.rollNo} scored ${this.marks} marks in ${this.subject} and got ${this.grade} Grade`
+      `${this.name} of rollNo ${this.rollNo} scored ${this.marks} marks in ${this.subject} and got ${this.grade} Grade`,
     );
   }
 }
